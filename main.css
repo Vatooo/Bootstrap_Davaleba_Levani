@@ -1,224 +1,228 @@
  body {
-     background:#444;
+
  }
- 
+
  /* Header */
  .navbar {
-    box-sizing:border-box;
-    padding:20px;
-    padding-left:200px;
-    padding-right:200px;
-    font-size:22px;
-} 
-.navbar-brand {
-    font-size:22px;
-}
+ width:100%;
+ box-sizing:border-box;
+ padding:20px;
+ padding-left:200px;
+ padding-right:200px;
+ font-size:22px;
 
-.navbar img {
-    width:110px;
-    height:70px;
+ }
+ .navbar-brand {
+ font-size:22px;
 
-}
+ }
 
-.dropdown .btn {
-   background-color:#6977854b;
-    color:white;
-    font-size:22px;
-}
+ .navbar img {
+ width:110px;
+ height:70px;
 
-/*  */
+ }
 
+ .dropdown .btn {
+ background-color:#6977854b;
+ color:white;
+ font-size:22px;
+ }
 
-/* Form */
+ /* */
 
-form .inp {
-width:150px;
-height:50px;
-border:1px solid white;
+ /* Form */
+form {
+   margin-right:-50px;
 }
-form .inp[type=search] {
-    background:rgba(128, 128, 128, 0.164);
-    color:white;
-  }
-form .inp::placeholder {
-   color:white;
-   font-size:21px;
-   padding-left:10px;
-}
-form .inp:hover {
-    width:290px;
-    transition-duration:1s;
-}
+ form .inp {
+ width:150px;
+ height:50px;
+ border:1px solid white;
 
-form .my-button {
-    width:150px;
-    height:50px;
-    letter-spacing: 2px;
-    border:1px solid white;
-    font-size:19px;
-    color:white;
-    background-color:#563D7C;
-}
-form .my-button:hover {
-    background-color:rgb(68, 190, 180);
-    border:1px solid gray;
+ }
+ form .inp[type=search] {
+ background:rgba(128, 128, 128, 0.164);
+ color:white;
+ }
+ form .inp::placeholder {
+ color:white;
+ font-size:21px;
+ padding-left:10px;
+ }
+ form .inp:hover {
+ width:290px;
+ transition-duration:1s;
+ }
 
-}
+ form .my-button {
+ width:150px;
+ height:50px;
+ letter-spacing: 2px;
+ border:1px solid white;
+ font-size:19px;
+ color:white;
+ background-color:#563D7C;
+ }
+ form .my-button:hover {
+ background-color:rgb(68, 190, 180);
+ border:1px solid gray;
 
-/* Main */
+ }
 
-.carousel-item img{
-    width:100%;
-    height:590px;
-}
+ /* Main */
 
-.carousel-control-next-icon {
-    width:30px;
-    height:30px;
-}
-.carousel-control-prev-icon {
-    width:30px;
-    height:30px;
-}
+ .carousel-item img{
+ width:100%;
+ height:590px;
+ }
 
-/* Cards */
-.card-deck  {
-    margin-top:100px;
-    
-}
-.card-deck .card {
-    text-align:center;
-}
-.card-deck .card img {
-    width:100%;
-    height:300px;
-}
+ .carousel-control-next-icon {
+ width:30px;
+ height:30px;
+ }
+ .carousel-control-prev-icon {
+ width:30px;
+ height:30px;
+ }
 
-.card-body a {
-    font-size:21px;
-}
+ /* Cards */
+ .card-deck {
+ margin-top:100px;
 
-/*Modal */
-.modal-margin{
-margin-left:174px;
-width:250px;
-}
+ }
+ .card-deck .card {
+ text-align:center;
+ }
+ .card-deck .card img {
+ width:100%;
+ height:300px;
+ }
 
-/* Form */
-.form-container {
-    width:700px;
-    height:900px;
-    background-color:#563D7C;
-    padding-top:100px;
-    margin:auto;
-    margin-top:100px;
-    color:white;
-    /* background-image: url(https://constructionblog.autodesk.com/wp-content/uploads/2020/06/complete-guide-to-building-commissioning-in-construction.jpg);
-    background-size:cover;
-    background-repeat:no-repeat; */
-}
-.modal-form {
-    width:50%;
-    margin:auto;
-    margin-top:20px;
-}
-.modal-form .row-block {
-    display:block;
-}
+ .card-body a {
+ font-size:21px;
+ }
 
+ /*Modal */
+ .modal-margin{
+ margin-left:174px;
+ width:250px;
+ }
 
-.modal-form #inputEmail4, #inputPassword4 {
-    width:350px;
-}
-.btn-sub{
-    margin-top:20px;
-    width:350px;
-}
+ /* Form */
+ .form-container {
+ width:700px;
+ height:900px;
+ background-color:#563D7C;
+ padding-top:100px;
+ margin:auto;
+ margin-top:100px;
+ color:white;
+ /* background-image:
+ url(https://constructionblog.autodesk.com/wp-content/uploads/2020/06/complete-guide-to-building-commissioning-in-construction.jpg);
+ background-size:cover;
+ background-repeat:no-repeat; */
+ }
+ .modal-form {
+ width:50%;
+ margin:auto;
+ margin-top:20px;
+ }
+ .modal-form .row-block {
+ display:block;
+ }
 
+ .modal-form #inputEmail4, #inputPassword4 {
+ width:350px;
+ }
+ .btn-sub{
+ margin-top:20px;
+ width:350px;
+ }
 
-/* Grids */
+ /* Grids */
 
-.container-2 {
-    width:100%;
-    height:900px;
-    background-color:#563D7C;
-    margin:auto;
-    margin-top:100px;
-    text-align:center;
-}
-.container-2 h2{
-    padding-top:20px;
-    color:white;
-    /* writing-mode:vertical-lr; */
-}
+ .container-2 {
+ width:100%;
+ height:900px;
+ background-color:#563D7C;
+ margin:auto;
+ margin-top:100px;
+ text-align:center;
+ }
+ .container-2 h2{
+ padding-top:20px;
+ color:white;
+ /* writing-mode:vertical-lr; */
+ }
 
-.container-2 .row {
-    color:rgb(245, 89, 89);
-    font-weight:bold;
-    height:300px;
-    width:100%;
-    margin:auto;
-    margin-top:70px;
-}
+ .container-2 .row {
+ color:rgb(245, 89, 89);
+ font-weight:bold;
+ height:300px;
+ width:100%;
+ margin:auto;
+ margin-top:70px;
+ }
 
-.row .col {
-    border:11px solid #563D7C;
-}
-.row .imag-1 {
-    background-image:url(https://i.pinimg.com/originals/77/40/c4/7740c42ff80e80cab457718231d3e0e6.jpg);
-    background-size:350px 300px; 
-    background-repeat:no-repeat;
-}
-.row .imag-2 {
-    background-image: url(https://www.architectureartdesigns.com/wp-content/uploads/2013/03/Red-Building-1.jpg);
-    background-size:350px 300px;
-    background-repeat:no-repeat;
-}
-.row .imag-3 {
-    background-image: url(https://cnepetroleum.com/wp-content/uploads/2019/03/building.jpg);
-    background-size:350px 300px;
-    background-repeat:no-repeat;
-}
-.row .imag-4 {
-    background-image: url(https://i.pinimg.com/originals/a2/19/db/a219db817f0428f4727db1e9a4f5291f.jpg);
-    background-size:350px 300px;
-    background-repeat:no-repeat;
-}
+ .row .col {
+ border:11px solid #563D7C;
+ }
+ .row .imag-1 {
+ background-image:url(https://i.pinimg.com/originals/77/40/c4/7740c42ff80e80cab457718231d3e0e6.jpg);
+ background-size:350px 300px;
+ background-repeat:no-repeat;
+ }
+ .row .imag-2 {
+ background-image: url(https://www.architectureartdesigns.com/wp-content/uploads/2013/03/Red-Building-1.jpg);
+ background-size:350px 300px;
+ background-repeat:no-repeat;
+ }
+ .row .imag-3 {
+ background-image: url(https://cnepetroleum.com/wp-content/uploads/2019/03/building.jpg);
+ background-size:350px 300px;
+ background-repeat:no-repeat;
+ }
+ .row .imag-4 {
+ background-image: url(https://i.pinimg.com/originals/a2/19/db/a219db817f0428f4727db1e9a4f5291f.jpg);
+ background-size:350px 300px;
+ background-repeat:no-repeat;
+ }
 
-.row .imag-5 {
-    background-image: url(https://si.wsj.net/public/resources/images/P1-BF981_LIONDO_DV_20120429211752.jpg);
-    background-size:470px 300px;
-    background-repeat:no-repeat;
-}
-.row .imag-6 {
-    background-image: url(https://i.pinimg.com/originals/62/01/6a/62016a080bb4a416902b584f9a29a713.jpg);
-    background-size:470px 300px;
-    background-repeat:no-repeat;
-}
-.row .imag-7 {
-    background-image: url(https://cdn.home-designing.com/wp-content/uploads/2009/06/nice-building.jpg);
-    background-size:470px 300px;
-    background-repeat:no-repeat;
-}
+ .row .imag-5 {
+ background-image: url(https://si.wsj.net/public/resources/images/P1-BF981_LIONDO_DV_20120429211752.jpg);
+ background-size:470px 300px;
+ background-repeat:no-repeat;
+ }
+ .row .imag-6 {
+ background-image: url(https://i.pinimg.com/originals/62/01/6a/62016a080bb4a416902b584f9a29a713.jpg);
+ background-size:470px 300px;
+ background-repeat:no-repeat;
+ }
+ .row .imag-7 {
+ background-image: url(https://cdn.home-designing.com/wp-content/uploads/2009/06/nice-building.jpg);
+ background-size:470px 300px;
+ background-repeat:no-repeat;
+ }
 
-.container-2 .btn-more {
-    width:200px;
-    margin-top:21px;
-}
+ .container-2 .btn-more {
+ width:200px;
+ margin-top:21px;
+ }
 
-/* Footer */
+ /* Footer */
 
-footer {
-    background-color:#222;
-    color:white;
-    margin-top:100px;
-}
+ footer {
+ background-color:#222;
+ color:white;
+ margin-top:100px;
+ }
 
-footer h5{
-    font-size:30px;
-    letter-spacing:11px;
-}
-footer p {
-    font-size:21px;
-    letter-spacing:4px;
-}
+ footer h5{
+ font-size:30px;
+ letter-spacing:11px;
+ }
+ footer p {
+ font-size:21px;
+ letter-spacing:4px;
+ }
